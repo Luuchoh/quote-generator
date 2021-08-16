@@ -1,0 +1,69 @@
+.container-wrapper{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  
+  .next,
+  .twitter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #333;
+    border: 2px solid #333;
+    border-radius:  8px;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+  }
+  .twitter{
+    justify-content: space-around;
+    width: 150px;
+    
+  }
+  
+  .next span,
+  .twitter span, 
+  .twitter i{
+    position: relative;
+    z-index: 2;
+  }
+  
+  .next:after,
+  .twitter:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #ff003b;
+    border-radius: 5px;
+    transition: all .35s;
+  }
+    
+  .twitter:after{
+    background: #00ACEE;
+  }
+  
+  .next:hover,
+  .twitter:hover{
+    color: #fff;
+  }
+  
+  .next:hover:after,
+  .twitter:hover:after{
+    width: 100%;
+    color: #fff;
+  }
+  
+
+  
