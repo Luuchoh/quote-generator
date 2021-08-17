@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import Twitter from "twitter";
 
 import "../styles/button-styles.css";
 
