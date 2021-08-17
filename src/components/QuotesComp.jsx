@@ -48,7 +48,7 @@ const QuotesComp = () => {
                 <button className="next" onClick={API}>
                   <span>Siguiente</span>
                 </button>
-                <a className="twitter" href={`https://twitter.com/intent/tweet?text=${quote.content}%0A%0A${quote.author}`} target="_blank">
+                <a className="twitter" href={`https://twitter.com/intent/tweet?text=${quote.content}%0A%0A${quote.author}`} target="_blank" rel="noreferrer">
                   <i className="fab fa-twitter text-primary"></i>
                   <span>Twittear</span>
                 </a>
